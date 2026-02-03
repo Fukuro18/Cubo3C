@@ -6859,6 +6859,7 @@ GameObject:
   - component: {fileID: 379558711}
   - component: {fileID: 379558713}
   - component: {fileID: 379558712}
+  - component: {fileID: 379558714}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -6939,6 +6940,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d5d7f15eb0522243b6db39cd03340e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &379558714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379558709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbd7ef559b1c16a4d9e6db2c5e64d2d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1310259231}
 --- !u!1001 &391556150
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7513,7 +7527,7 @@ PrefabInstance:
     - target: {fileID: 4878756618474651773, guid: 6592a63bc2ae54a47ad27e7e7dbba6b4,
         type: 3}
       propertyPath: m_Name
-      value: Piece (5)
+      value: FDL
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8046,7 +8060,7 @@ PrefabInstance:
     - target: {fileID: 4878756618474651773, guid: 6592a63bc2ae54a47ad27e7e7dbba6b4,
         type: 3}
       propertyPath: m_Name
-      value: Piece (4)
+      value: BDR
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8891,7 +8905,7 @@ PrefabInstance:
     - target: {fileID: 4878756618474651773, guid: 6592a63bc2ae54a47ad27e7e7dbba6b4,
         type: 3}
       propertyPath: m_Name
-      value: Piece (3)
+      value: BLD
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9026,7 +9040,7 @@ PrefabInstance:
     - target: {fileID: 4878756618474651773, guid: 6592a63bc2ae54a47ad27e7e7dbba6b4,
         type: 3}
       propertyPath: m_Name
-      value: Piece (6)
+      value: FDR
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11021,7 +11035,7 @@ PrefabInstance:
     - target: {fileID: 4878756618474651773, guid: 6592a63bc2ae54a47ad27e7e7dbba6b4,
         type: 3}
       propertyPath: m_Name
-      value: Piece (7)
+      value: BRU
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11118,7 +11132,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1577060332}
-  - component: {fileID: 1577060333}
   m_Layer: 0
   m_Name: CubeHolder
   m_TagString: Untagged
@@ -11143,19 +11156,6 @@ Transform:
   - {fileID: 1310259232}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1577060333
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1577060331}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbd7ef559b1c16a4d9e6db2c5e64d2d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 1310259231}
 --- !u!1 &1600985994
 GameObject:
   m_ObjectHideFlags: 0
@@ -11248,7 +11248,7 @@ PrefabInstance:
     - target: {fileID: 4878756618474651773, guid: 6592a63bc2ae54a47ad27e7e7dbba6b4,
         type: 3}
       propertyPath: m_Name
-      value: Piece (2)
+      value: FUL
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11776,7 +11776,7 @@ PrefabInstance:
     - target: {fileID: 4878756618474651773, guid: 6592a63bc2ae54a47ad27e7e7dbba6b4,
         type: 3}
       propertyPath: m_Name
-      value: Piece (1)
+      value: BLU
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12094,7 +12094,7 @@ PrefabInstance:
     - target: {fileID: 4878756618474651773, guid: 6592a63bc2ae54a47ad27e7e7dbba6b4,
         type: 3}
       propertyPath: m_Name
-      value: Piece
+      value: FUR
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
