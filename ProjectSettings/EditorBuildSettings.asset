@@ -9,26 +9,29 @@ EditorBuildSettings:
     path: Assets/Scenes/InicioPresentacion.unity
     guid: 595cc38adb151a049904d5e847dcc375
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 3f37b497ae17a5744a87efde0de41ffa
+  - enabled: 1
     path: Assets/Scenes/Niveles.unity
     guid: 54aac2fa01285274b8d4d8a56f6ead02
   - enabled: 1
-    path: Assets/Scenes/Video.unity
-    guid: 752b8d6c3294036418786b2aa2346303
-  - enabled: 1
-    path: Assets/Scenes/ExitConfirmationPanel.unity
-    guid: 16a43d3be008a564cbc71b9b85229cdb
-  - enabled: 1
-    path: Assets/Scenes/Settings.unity
-    guid: 01c7d224ef957514a99d64ce140c4038
-  - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
-    guid: 3f37b497ae17a5744a87efde0de41ffa
+    path: Assets/Scenes/Cubo2x2.unity
+    guid: db7d7d0bee63f4547ab966d3974ad9cb
   - enabled: 1
     path: Assets/Scenes/Cube.unity
     guid: 0b929ab678c5f214aba684606c19810c
   - enabled: 1
-    path: Assets/Scenes/Pyraminx.unity
-    guid: d63bab8b4de9f7342b5b26ea99b30588
+    path: Assets/Scenes/Video.unity
+    guid: 752b8d6c3294036418786b2aa2346303
+  - enabled: 1
+    path: Assets/Scenes/Settings 1.unity
+    guid: 1efdb9c3fd07b364bba32d0035d1cb02
+  - enabled: 1
+    path: Assets/Scenes/ExitConfirmationPanel.unity
+    guid: 16a43d3be008a564cbc71b9b85229cdb
+  - enabled: 0
+    path: Assets/Scenes/Settings.unity
+    guid: 01c7d224ef957514a99d64ce140c4038
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 58a8dd4dd82abc341a884d32fb128393,
       type: 2}
