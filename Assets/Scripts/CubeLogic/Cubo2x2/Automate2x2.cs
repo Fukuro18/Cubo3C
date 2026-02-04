@@ -34,6 +34,7 @@ public class Automate2x2 : MonoBehaviour
         }
     }
 
+    [ContextMenu("Shuffle")]
     public void Shuffle()
     {
         List<string> moves = new List<string>();
