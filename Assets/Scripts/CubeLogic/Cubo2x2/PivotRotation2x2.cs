@@ -16,13 +16,13 @@ public class PivotRotation2x2 : MonoBehaviour
         cubeTransform = transform.parent;
     }
 
-    public void Rotate(List<GameObject> side)
+    public void Rotate(List<GameObject> side, Vector3 axis, float angle)
     {
         activeSide = side;
-        localForward = Vector3.zero - transform.localPosition;
+        localForward = axis;
         autoRotating = true;
-        targetQuaternion = Quaternion.Euler(transform.localEulerAngles + localForward * 90f);
-        Debug.Log("[PivotRotation2x2] Iniciando rotacion automatica de " + side.Count + " piezas");
+        targetQuaternion = Quaternion.Euler(transform.localEulerAngles + localForward * angle);
+        Debug.Log($"[PivotRotation2x2] Rotando eje {axis} por {angle} grados. ({side.Count} piezas)");
     }
 
     void Update()
